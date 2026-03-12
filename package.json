@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "concurrently \"npm run dev --prefix frontend\" \"mvn spring-boot:run -f backend/pom.xml\"",
+    "start": "concurrently \"npm run dev --prefix frontend\" \".\\backend\\mvnw.cmd -f backend/pom.xml spring-boot:run\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
